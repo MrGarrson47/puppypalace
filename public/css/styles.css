@@ -1,0 +1,26 @@
+.hero-img-container {
+    background: white;
+}
+
+.hero-img {
+    height: 30vw;
+    max-height: 300px;
+    width: 100%;
+}
+
+.side-imgs-container {
+    background: #fd9c0d;
+    border: .5em solid  #d4830a;
+}
+
+.side-img {
+    height: 15vw;
+    width: 30%;
+    max-height: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.nav-link:hover {
+    background: rgb(5, 5, 151);
+}
