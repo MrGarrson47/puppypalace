@@ -1,0 +1,110 @@
+.hero-img-container {
+    background: white;
+}
+
+.hero-img {
+    height: 30vw;
+    max-height: 300px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3vw;
+    color: rgb(165, 165, 165);
+}
+
+.accountBtnsCon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cart-img {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 100%;
+    padding: .1vw;
+}
+
+.side-imgs-container {
+    background: #fd9c0d;
+    border: .5em solid  #d4830a;
+    overflow: hidden;
+}
+
+.side-img {
+    height: 15vw;
+    width: 30%;
+    max-height: 150px;
+    margin-top: auto;
+    margin-bottom: auto;
+    animation: heroSliderLeftSlideIn 2500ms 1 forwards, heroSliderLeftSlideOut 2500ms 1 2500ms forwards;
+    opacity: .5;
+}
+
+.nav-link:hover {
+    background: rgb(5, 5, 151);
+}
+
+.dropdown-link {
+    position: relative;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.list-item a{
+   list-style: none;
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.dropdown-link:hover .dropdown-container{
+    opacity: 1;
+    pointer-events: all;
+   z-index: 5;
+}
+
+.dropdown-container {
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    transform: translateX(-50%);
+    left: 50%;
+    background: #0d6efd;
+    border: 1px solid white;
+    border-top: none;
+    min-width: 10vw;
+    max-width: 30vw;
+    padding: .3em;
+    transition: opacity 200ms ease-in;
+}
+
+.info-container {
+    background: rgb(236, 234, 234);
+    padding: 2.5em;
+}
+
+.info-text {
+    color:#fd9c0d;
+    font-size: 2.5vw;
+    align-self: center;
+}
+
+.info-img {
+    width: 30vw;
+    border-radius: 10%;
+}
+
+@keyframes heroSliderLeftSlideIn {
+    0%{transform: translateX(50%);}
+    100%{transform: translateX(0%); opacity: 1;}
+}
+
+@keyframes heroSliderLeftSlideOut {
+    0%{transform: translateX(0%);}
+    100%{transform: translateX(-50%); opacity: .5;}
+}
