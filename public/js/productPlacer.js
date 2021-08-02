@@ -184,7 +184,7 @@ const createRowDivElement = () => {
 const createColumnDivElement = () => {
 
     let column = document.createElement("div");
-    column.classList.add("col");
+    column.classList.add("col-sm");
     column.classList.add("d-flex");
     column.classList.add("justify-content-around");
     return column;

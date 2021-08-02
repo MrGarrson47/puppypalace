@@ -1,0 +1,23 @@
+#cards-container {
+    margin-top: 10%;
+}
+
+.card-product-img {
+    width: 10vw;
+    height: 20vw;
+    min-width: 50px;
+    min-height: 150px;
+}
+
+.row {
+    margin-top: 200px;
+}
+
+.blank-card {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.product-rows {
+    margin: 10%;
+}

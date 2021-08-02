@@ -1,0 +1,37 @@
+#cart-img {
+    width: 30px;
+    height: 30px;
+    padding: .1vw;
+}
+
+#cart-dropdown-link {
+    width: 20vw;   
+    background: rgb(216, 184, 5);
+}
+
+#cart-dropdown-link:hover #cart-dropdown-container {
+    opacity: 1;
+    pointer-events: all;
+    width: 48vw;
+    height: 30vw;
+    z-index: 15;
+    background: pink;
+   
+}
+
+#cart-dropdown-link-total {
+    width: 100%;
+    background: #27a807;
+    color: white;
+}
+
+#cart-dropdown-container {
+    opacity: 0;
+    pointer-events: none;
+    top: 0;
+    right: 0;
+    transform: translateX(10%);
+    width: 48vw;
+    height: 30vw;
+    background: pink;
+}

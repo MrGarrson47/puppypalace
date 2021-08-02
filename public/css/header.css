@@ -1,0 +1,12 @@
+header div {
+    background: #fd9c0d;
+}
+
+.hero-img {
+    width: 20%;
+}
+
+#hero-text {
+    color: white;
+    text-decoration: none;
+}

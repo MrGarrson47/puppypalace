@@ -13,20 +13,6 @@ h1 {
     color: rgb(165, 165, 165);
 }
 
-.accountBtnsCon {
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-.cart-img {
-    width: 30px;
-    height: 30px;
-    background: white;
-    border-radius: 100%;
-    padding: .1vw;
-}
-
 .side-imgs-container {
     background: #fd9c0d;
     border: .5em solid  #d4830a;

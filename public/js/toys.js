@@ -13,12 +13,12 @@ let sortBySelectElement = document.querySelector("#sortBySelect");
 
 const sortAndFilterSelectOnchange = () => {
     removeProductRows();
-    displayProductCards(foodProductsArray, brandSelectElement.value, sortBySelectElement.value);
+    displayProductCards(toyProductsArray, brandSelectElement.value, sortBySelectElement.value);
 }
 
 //temporary images array
 
-let foodProductsArray = [];
+let toyProductsArray = [];
 
 let brandCount = 0;
 
@@ -45,11 +45,11 @@ for (let i = 1; i < 11; i++) {
 
     brandDesignator();
 
-    foodProductsArray.push(
+    toyProductsArray.push(
         {
             name: `item${i}`,
             price: randomRangeGenerator(105, 300),
-            src: `../images/food${i}.jpg`,
+            src: `../images/toy${i}.jpg`,
             brand: brandCount,
             rating: randomRangeGenerator(1, 6)
         }
@@ -68,4 +68,4 @@ sortBySelectElement.addEventListener("change", ()=>{
     sortAndFilterSelectOnchange();
 })
 
-displayProductCards(foodProductsArray, brandSelectElement.value, sortBySelectElement.value);
+displayProductCards(toyProductsArray, brandSelectElement.value, sortBySelectElement.value);
