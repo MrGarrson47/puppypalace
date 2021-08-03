@@ -9,12 +9,41 @@
     <link rel="stylesheet" href="./css/homepage.css">
     <link rel="stylesheet" href="./css/shoppingcart.css">
     <link rel="stylesheet" href="./css/accountcontainer.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap_local/css/bootstrap.min.css">
     <title>Puppy Palace</title>
 </head>
 
 <body>
     <div class="hero-container">
+
+        <div class="d-flex bg-primary">
+            <div class="position-relative" id="account-container">
+                <p id="account-name" class="btn m-0">Guest</p>
+                <div id="account-dropdown-container" class="position-absolute d-flex flex-column">
+                    <ul id="account-dropdown-list-container" class="p-0">
+                        <li class="account-dropdown-list-item"><a href="" class="d-block">Log in</a></li>
+                        <li class="account-dropdown-list-item"><a href="" class="d-block">Sign up</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="cart-dropdown-link" class="d-flex align-items-center position-relative">
+
+                <p id="cart-dropdown-link-total" class="btn m-0">R0.00</p>
+                <img src="./images/cart1.png" id="cart-img" alt="">
+
+                <div id="cart-dropdown-container" class="position-absolute border border-4 border-dark rounded">
+
+                    <div id="cart-dropdown-inner-cart-total-container" class="d-flex justify-content-around bg-warning">
+                        <p id="cart-dropdown-inner-cart-cost" class="w-50">R0.00</p>
+                        <p id="cart-dropdown-inner-cart-items-count" class="w-50">0</p>
+                        <button class="btn btn-success">Checkout</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
 
         <div class="container-fluid p-0 ">
 
@@ -25,34 +54,8 @@
 
                 <div class="col p-0 m-0 d-flex flex-column">
 
-                    <div class="bg-primary h-25 d-flex justify-content-around align-items-center">
-
-                        <div class="position-relative" id="account-container">
-                            <p id="account-name" class="btn m-0">Guest</p>
-                            <div id="account-dropdown-container" class="position-absolute d-flex flex-column">
-                               <ul id="account-dropdown-list-container" class="p-0">
-                                   <li class="account-dropdown-list-item"><a href=""  class="d-block">Log in</a></li>
-                                   <li class="account-dropdown-list-item"><a href=""  class="d-block">Sign up</a></li>
-                               </ul>
-                            </div>
-                        </div>    
-
-                        <div id="cart-dropdown-link" class="d-flex align-items-center position-relative" >
-
-                            <p id="cart-dropdown-link-total" class="btn m-0">R0.00</p>
-                            <img src="./images/cart1.png" id="cart-img" alt="">
-
-                            <div id="cart-dropdown-container" class="position-absolute">
-
-                                <div id="cart-dropdown-inner-cart-total-container" class="d-flex justify-content-between">
-                                    <p id="cart-dropdown-inner-cart-cost">R0.00</p>
-                                    <p id="cart-dropdown-inner-cart-items-count">0</p>
-                                </div>
-
-                            </div>
-
-                        </div>
-                        
+                    <div class="bg-primary h-25 d-flex justify-content-around align-items-center border border-info">
+                        <h6 class="display-4">Puppy Palace</h6>
                     </div>
 
                     <div class="side-imgs-container d-flex justify-content-center h-75 ">
@@ -144,7 +147,7 @@
             integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
             crossorigin="anonymous"></script>
         <script type="module" src="./js/index.js"></script>
-        <script src="../js/bootstrap.min.js"></script>
+        <script src="./bootstrap_local/js/bootstrap.min.js"></script>
 </body>
 
 </html>

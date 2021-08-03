@@ -10,24 +10,47 @@
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/productsgrid.css">
     <link rel="stylesheet" href="../css/shoppingcart.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/accountcontainer.css">
+    <link rel="stylesheet" href="../bootstrap_local/css/bootstrap.min.css">
     <title>Puppy Palace</title>
 </head>
 
 <body>
 
-    <header>
-        <h1 class="bg-primary text-center p-2 m-0"><a id="hero-text" href="../index.html">Puppy Palace</a></h1>
-        <div class="d-flex justify-content-center">
-            <img class="hero-img rounded-top rounded-bottom" src="../images/bed4.jpg" alt="">
-            <img class="hero-img rounded-top rounded-bottom" src="../images/bed3.jpg" alt="">
-            <img class="hero-img rounded-top rounded-bottom" src="../images/bed2.jpg" alt="">
+    <div class="d-flex bg-primary">
+        <div class="position-relative" id="account-container">
+            <p id="account-name" class="btn m-0">Guest</p>
+            <div id="account-dropdown-container" class="position-absolute d-flex flex-column">
+                <ul id="account-dropdown-list-container" class="p-0">
+                    <li class="account-dropdown-list-item"><a href="" class="d-block">Log in</a></li>
+                    <li class="account-dropdown-list-item"><a href="" class="d-block">Sign up</a></li>
+                </ul>
+            </div>
         </div>
-    </header>
+
+        <div id="cart-dropdown-link" class="d-flex align-items-center position-relative">
+
+            <p id="cart-dropdown-link-total" class="btn m-0">R0.00</p>
+            <img src="../images/cart1.png" id="cart-img" alt="">
+
+            <div id="cart-dropdown-container" class="position-absolute border border-4 border-dark rounded">
+
+                <div id="cart-dropdown-inner-cart-total-container" class="d-flex justify-content-around bg-warning">
+                    <p id="cart-dropdown-inner-cart-cost" class="w-50">R0.00</p>
+                    <p id="cart-dropdown-inner-cart-items-count" class="w-50">0</p>
+                    <button class="btn btn-success">Checkout</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-primary">
 
         <a href="../index.html" class="navbar-brand">Puppy Palace</a>
+
+        <span class="text-warning">Bedding</span>
 
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
             data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
@@ -114,7 +137,7 @@
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
     <script type="module" src="../js/bedding.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../bootstrap_local/js/bootstrap.min.js"></script>
 </body>
 
 </html>
