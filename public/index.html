@@ -14,140 +14,135 @@
 </head>
 
 <body>
-    <div class="hero-container">
 
-        <div class="d-flex bg-primary">
-            <div class="position-relative" id="account-container">
-                <p id="account-name" class="btn m-0">Guest</p>
-                <div id="account-dropdown-container" class="position-absolute d-flex flex-column">
-                    <ul id="account-dropdown-list-container" class="p-0">
-                        <li class="account-dropdown-list-item"><a href="" class="d-block">Log in</a></li>
-                        <li class="account-dropdown-list-item"><a href="" class="d-block">Sign up</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div id="cart-dropdown-link" class="d-flex align-items-center position-relative">
-
-                <p id="cart-dropdown-link-total" class="btn m-0">R0.00</p>
-                <img src="./images/cart1.png" id="cart-img" alt="">
-
-                <div id="cart-dropdown-container" class="position-absolute border border-4 border-dark rounded">
-
-                    <div id="cart-dropdown-inner-cart-total-container" class="d-flex justify-content-around bg-warning">
-                        <p id="cart-dropdown-inner-cart-cost" class="w-50">R0.00</p>
-                        <p id="cart-dropdown-inner-cart-items-count" class="w-50">0</p>
-                        <button class="btn btn-success">Checkout</button>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-        <div class="container-fluid p-0 ">
-
-            <div class="row w-100 m-0">
-                <div class="col hero-img-container bg-primary p-0">
-                    <img class="hero-img" src="./images/hero1.jpg" alt="">
-                </div>
-
-                <div class="col p-0 m-0 d-flex flex-column">
-
-                    <div class="bg-primary h-25 d-flex justify-content-around align-items-center border border-info">
-                        <h6 class="display-4">Puppy Palace</h6>
-                    </div>
-
-                    <div class="side-imgs-container d-flex justify-content-center h-75 ">
-                        <img class="side-img" src="./images/dog7.jpg" alt="">
-                        <img class="side-img" src="./images/dog9.jpg" alt="">
-                        <img class="side-img" src="./images/dog1.jpg" alt="">
-                    </div>
-
-
-                </div>
-
-            </div>
-        </div>
-
-        <nav class="navbar navbar-expand-md navbar-dark bg-primary">
-
-            <a hfef="#" class="navbar-brand">Puppy Palace
-            </a>
-
-            <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
-                data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="toggleMobileMenu">
-                <ul class="navbar-nav ms-auto text-center">
-                    <li>
-                        <div class="dropdown-link">
-                            <a href="#" class="nav-link">Shop</a>
-                            <div class="dropdown-container">
-                                <ul class="p-0">
-                                    <li class="list-item"><a href="./pages/food.html">Food</a></li>
-                                    <li class="list-item"><a href="./pages/toys.html">Toys</a></li>
-                                    <li class="list-item"><a href="./pages/bedding.html">Bedding</a></li>
-                                </ul>
-                            </div>
-                        </div>
-
-                    </li>
-                    <li>
-                        <div class="dropdown-link">
-                            <a href="#" class="nav-link">Training</a>
-                            <div class="dropdown-container">
-                                <ul class="p-0">
-                                    <li class="list-item"><a href="">Behavior</a></li>
-                                    <li class="list-item"><a href="">Assistance</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <a href="#" class="nav-link">Contact</a>
-                    </li>
+    <div class="d-flex bg-primary">
+        <div class="position-relative" id="account-container">
+            <p id="account-name" class="btn m-0">Guest</p>
+            <div id="account-dropdown-container" class="position-absolute d-flex flex-column">
+                <ul id="account-dropdown-list-container" class="p-0">
+                    <li class="account-dropdown-list-item"><a href="./pages/login.html" class="d-block">Log in</a></li>
+                    <li class="account-dropdown-list-item"><a href="./pages/signup.html" class="d-block">Sign up</a></li>
                 </ul>
             </div>
-
-        </nav>
-
-        <div class="info-container container d-flex justify-content-between mt-5">
-            <h1 class="info-text">Fill all those hungry mouths with the <a href="./pages/food.html">best brands</a> of
-                puppy chow!</h1>
-            <img class="info-img" src="./images/eating1.jpg" alt="">
         </div>
 
-        <div class="info-container container d-flex justify-content-between mt-5">
-            <h1 class="info-text">Give the little scamps a <a href="./pages/toys.html">mouthfull of fun</a> and keep
-                them away from your slippers!</h1>
-            <img class="info-img" src="./images/playing1.jpg" alt="">
+        <div id="cart-dropdown-link" class="d-flex align-items-center position-relative">
+
+            <p id="cart-dropdown-link-total" class="btn m-0">R0.00</p>
+            <img src="./images/cart1.png" id="cart-img" alt="">
+
+            <div id="cart-dropdown-container" class="position-absolute border border-4 border-dark rounded">
+
+                <div id="cart-dropdown-inner-cart-total-container" class="d-flex justify-content-around bg-warning">
+                    <p id="cart-dropdown-inner-cart-cost" class="w-50">R0.00</p>
+                    <p id="cart-dropdown-inner-cart-items-count" class="w-50">0</p>
+                    <button class="btn btn-success">Checkout</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid p-0 ">
+
+        <div class="row w-100 m-0">
+            <div class="col hero-img-container bg-primary p-0">
+                <img class="hero-img" src="./images/hero1.jpg" alt="">
+            </div>
+
+            <div class="col p-0 m-0 d-flex flex-column">
+
+                <div class="bg-primary h-25 d-flex justify-content-around align-items-center border border-info">
+                    <h6 class="display-4">Puppy Palace</h6>
+                </div>
+
+                <div class="side-imgs-container d-flex justify-content-center h-75 ">
+                    <img class="side-img" src="./images/dog7.jpg" alt="">
+                    <img class="side-img" src="./images/dog9.jpg" alt="">
+                    <img class="side-img" src="./images/dog1.jpg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+
+        <a hfef="#" class="navbar-brand">Puppy Palace
+        </a>
+
+        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
+            data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <ul class="navbar-nav ms-auto text-center">
+                <li>
+                    <div class="dropdown-link">
+                        <a href="#" class="nav-link">Shop</a>
+                        <div class="dropdown-container">
+                            <ul class="p-0">
+                                <li class="list-item"><a href="./pages/food.html">Food</a></li>
+                                <li class="list-item"><a href="./pages/toys.html">Toys</a></li>
+                                <li class="list-item"><a href="./pages/bedding.html">Bedding</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="dropdown-link">
+                        <a href="./pages/training.html" class="nav-link">Training</a>
+                    </div>
+                </li>
+                <li>
+                    <div class="dropdown-link">
+                        <a href="./pages/contact.html" class="nav-link">Contact</a>
+                    </div>
+                </li>
+            </ul>
         </div>
 
-        <div class="info-container container d-flex justify-content-between mt-5">
-            <h1 class="info-text">Let sleepy pups lie in our <a href="./pages/bedding.html">great selection</a> of puppy
-                beds!</h1>
-            <img class="info-img" src="./images/sleeping1.jpg" alt="">
-        </div>
+    </nav>
 
-        <div class="info-container container d-flex justify-content-between mt-5">
-            <h1 class="info-text">Let our <a href="#">top trainers</a> transform your good dog into the best dog!</h1>
-            <img class="info-img" src="./images/training1.jpg" alt="">
-        </div>
+    <div class="info-container container d-flex justify-content-between mt-5">
+        <h1 class="info-text">Fill all those hungry mouths with the <a href="./pages/food.html">best brands</a> of
+            puppy chow!</h1>
+        <img class="info-img" src="./images/eating1.jpg" alt="">
+    </div>
+
+    <div class="info-container container d-flex justify-content-between mt-5">
+        <h1 class="info-text">Give the little scamps a <a href="./pages/toys.html">mouthfull of fun</a> and keep
+            them away from your slippers!</h1>
+        <img class="info-img" src="./images/playing1.jpg" alt="">
+    </div>
+
+    <div class="info-container container d-flex justify-content-between mt-5">
+        <h1 class="info-text">Let sleepy pups lie in our <a href="./pages/bedding.html">great selection</a> of puppy
+            beds!</h1>
+        <img class="info-img" src="./images/sleeping1.jpg" alt="">
+    </div>
+
+    <div class="info-container container d-flex justify-content-between mt-5">
+        <h1 class="info-text">Let our <a href="./pages/training.html">top trainers</a> transform your good dog into the
+            best dog!</h1>
+        <img class="info-img" src="./images/training1.jpg" alt="">
+    </div>
 
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-            crossorigin="anonymous"></script>
-        <script type="module" src="./js/index.js"></script>
-        <script src="./bootstrap_local/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script type="module" src="./js/index.js"></script>
+    <script src="./bootstrap_local/js/bootstrap.min.js"></script>
 </body>
 
 </html>

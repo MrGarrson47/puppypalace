@@ -8,7 +8,6 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/shoppingcart.css">
-    <link rel="stylesheet" href="../css/productsgrid.css">
     <link rel="stylesheet" href="../css/accountcontainer.css">
     <link rel="stylesheet" href="../bootstrap_local/css/bootstrap.min.css">
     <title>Puppy Palace</title>
@@ -50,7 +49,7 @@
         <a href="../index.html" class="navbar-brand">Puppy Palace
         </a>
 
-        <span class="text-warning">Toys</span>
+        <span class="text-warning">Training</span>
 
         <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse"
             data-bs-target="#toggleMobileMenu" aria-controls="toggleMobileMenu" aria-expanded="false"
@@ -65,7 +64,8 @@
                         <div class="dropdown-container">
                             <ul class="p-0">
                                 <li class="list-item"><a href="food.html">Food</a></li>
-                                <li class="list-item"><a href="./bedding.html">Bedding</a></li>
+                                <li class="list-item"><a href="toys.html">Toys</a></li>
+                                <li class="list-item"><a href="bedding.html">Bedding</a></li>
                             </ul>
                         </div>
                     </div>
@@ -73,55 +73,17 @@
                 </li>
                 <li>
                     <div class="dropdown-link">
-                        <a href="../pages/training.html" class="nav-link">Training</a>
+                        <a href="./contact.html" class="nav-link">Contact</a>
                     </div>
                 </li>
-                <li>
-                    <a href="./contact.html" class="nav-link">Contact</a>
+
+                <li id="third-dropdown-link">
+                    <a class="nav-link">Contact</a>
                 </li>
             </ul>
         </div>
 
     </nav>
-
-    <div class="container-fluid ">
-
-        <div class="row">
-
-
-            <div class="form-floating d-flex p-0 w-25">
-
-                <select class="form-select form-select-sm" name="sortBy" id="sortBySelect">
-                    <option value="LH">Lowest to Highest</option>
-                    <option value="HL">Highest to Lowest</option>
-                    <option value="HR">Highest Rated</option>
-                </select>
-
-                <label for="sortBy">Sort By</label>
-
-            </div>
-
-            <div class="form-floating d-flex p-0 w-25">
-
-                <select class="form-select form-select-sm" id="brandSelect" name="brandSelect">
-                    <option value="0">All</option>
-                    <option value="1">Brand 1</option>
-                    <option value="2">Brand 2</option>
-                    <option value="3">Brand 3</option>
-                    <option value="4">Brand 4</option>
-                </select>
-
-                <label for="brandSelect">Brands</label>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <div id="cards-container" class="container ">
-
-    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -129,7 +91,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
         integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
         crossorigin="anonymous"></script>
-    <script type="module" src="../js/toys.js"></script>
     <script src="../bootstrap_local/js/bootstrap.min.js"></script>
 </body>
 
